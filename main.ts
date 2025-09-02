@@ -414,7 +414,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile9`, function (sprite, l
 })
 controller.right.onEvent(ControllerButtonEvent.Released, function () {
     animation.stopAnimation(animation.AnimationTypes.All, mySprite)
-    Left = 1
+    Left = 0
     animation.runImageAnimation(
     mySprite,
     [img`
@@ -438,7 +438,7 @@ controller.right.onEvent(ControllerButtonEvent.Released, function () {
     50,
     false
     )
-    Right = 0
+    Right = 1
 })
 controller.left.onEvent(ControllerButtonEvent.Released, function () {
     animation.stopAnimation(animation.AnimationTypes.All, mySprite)

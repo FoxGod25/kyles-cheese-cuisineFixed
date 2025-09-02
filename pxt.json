@@ -1,5 +1,5 @@
 {
-    "name": "Kyle's Cheese Cuisine.",
+    "name": "Kyle's Cheese Cuisine. Fixed",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -25,7 +25,7 @@
         "branch": "v1.12.32",
         "tag": "v1.12.32",
         "commits": "https://github.com/microsoft/pxt-arcade/commits/2bc63c8f9e7915ee02ddc6f113204107954f24b6",
-        "target": "1.12.56",
+        "target": "2.0.56",
         "pxt": "8.5.44",
         "targetId": "arcade"
     },
